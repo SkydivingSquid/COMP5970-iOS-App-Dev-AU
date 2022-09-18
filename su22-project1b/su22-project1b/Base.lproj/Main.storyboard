@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="su22_project1b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPp-xk-LFP">
-                                <rect key="frame" x="156.66666666666666" y="96" width="100.99999999999997" height="21"/>
+                                <rect key="frame" x="139" y="80" width="101" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="6Nx-4t-bUg"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="8Yc-Dy-zCF"/>
@@ -31,7 +31,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$1000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iCT-f7-aiJ">
-                                <rect key="frame" x="156.66666666666666" y="125" width="100.99999999999997" height="34"/>
+                                <rect key="frame" x="139" y="109" width="101" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.69652125529999998" blue="0.61650761899999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Ctx-jd-fG4"/>
@@ -40,7 +40,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number Of Payments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKd-yc-jk9">
-                                <rect key="frame" x="125" y="178" width="164" height="21"/>
+                                <rect key="frame" x="107" y="169" width="164" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="AoH-g4-3Jw"/>
                                     <constraint firstAttribute="width" constant="164" id="lYG-DJ-E5h"/>
@@ -52,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interest Rate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OT-sI-DTM">
-                                <rect key="frame" x="125" y="263" width="164" height="27"/>
+                                <rect key="frame" x="107" y="251" width="164" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="164" id="Cbl-ST-pGM"/>
                                     <constraint firstAttribute="height" constant="27" id="K1H-wS-ayT"/>
@@ -64,13 +64,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="72" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xnu-x3-unp">
-                                <rect key="frame" x="156.66666666666666" y="207" width="100.99999999999997" height="34"/>
+                                <rect key="frame" x="139" y="198" width="101" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.69652125529999998" blue="0.61650761899999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divide APR by 12 if Monthly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngQ-HL-dtT">
-                                <rect key="frame" x="120" y="284" width="174" height="17"/>
+                                <rect key="frame" x="102" y="272" width="174" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="54C-b7-lRL"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="5kt-bj-HNe"/>
@@ -82,7 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.366" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3cN-xT-ieQ">
-                                <rect key="frame" x="156.66666666666666" y="309" width="100.99999999999997" height="34"/>
+                                <rect key="frame" x="139" y="297" width="101" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.69652125529999998" blue="0.61650761899999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Lre-fI-EBx"/>
@@ -91,7 +91,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fixed Payment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5J-SE-eDp">
-                                <rect key="frame" x="151" y="637" width="112" height="21"/>
+                                <rect key="frame" x="666" y="80" width="112" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="112" id="GbA-OC-i1m"/>
                                     <constraint firstAttribute="height" constant="21" id="TCK-ah-9KG"/>
@@ -101,7 +101,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bCO-jm-QbR">
-                                <rect key="frame" x="156.66666666666663" y="666" width="100.99999999999997" height="34"/>
+                                <rect key="frame" x="666" y="107" width="112" height="34"/>
                                 <color key="backgroundColor" red="0.96841138601303101" green="0.95363438282668855" blue="0.033406731826837031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="fiv-e2-K7p"/>
@@ -110,7 +110,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qit-NX-ga4">
-                                <rect key="frame" x="156.66666666666663" y="753" width="100.99999999999997" height="34"/>
+                                <rect key="frame" x="666" y="198" width="112" height="34"/>
                                 <color key="backgroundColor" red="0.96841138599999999" green="0.95363438280000001" blue="0.033406731830000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="Zf8-6S-1wE"/>
@@ -120,7 +120,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Estimate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJV-pc-YTF">
-                                <rect key="frame" x="158" y="724" width="98" height="21"/>
+                                <rect key="frame" x="673" y="169" width="98" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Ui2-bR-KJS"/>
                                     <constraint firstAttribute="width" constant="98" id="ZdJ-Zo-p5i"/>
@@ -132,7 +132,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbt-5E-hlu">
-                                <rect key="frame" x="132" y="430.66666666666669" width="150" height="35"/>
+                                <rect key="frame" x="647" y="296" width="150" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="XpH-mI-kbo"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="fKW-gY-jdD"/>
@@ -274,6 +274,9 @@
                                 <exclude reference="ggd-pE-7SJ"/>
                                 <exclude reference="teD-Ju-CuW"/>
                                 <exclude reference="ytg-nm-jW2"/>
+                                <exclude reference="G6v-0W-TKk"/>
+                                <exclude reference="PhR-C8-S7q"/>
+                                <exclude reference="cdq-2p-Uw0"/>
                                 <exclude reference="9Cu-H5-ePO"/>
                                 <exclude reference="g6V-5G-4T9"/>
                                 <exclude reference="HPd-UH-sTq"/>
@@ -298,9 +301,6 @@
                                 <exclude reference="lMr-Nn-DeW"/>
                                 <exclude reference="qEF-RT-mAC"/>
                                 <exclude reference="vv6-W7-15l"/>
-                                <exclude reference="G6v-0W-TKk"/>
-                                <exclude reference="PhR-C8-S7q"/>
-                                <exclude reference="cdq-2p-Uw0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -325,6 +325,7 @@
                                 <include reference="YUq-8k-bLx"/>
                                 <include reference="bg5-co-q30"/>
                                 <include reference="teD-Ju-CuW"/>
+                                <include reference="G6v-0W-TKk"/>
                                 <include reference="9Cu-H5-ePO"/>
                                 <include reference="HPd-UH-sTq"/>
                                 <include reference="jP9-7v-rDn"/>
@@ -334,7 +335,6 @@
                                 <include reference="3fO-6b-9Oe"/>
                                 <include reference="LX5-eZ-hGs"/>
                                 <include reference="lMr-Nn-DeW"/>
-                                <include reference="G6v-0W-TKk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -365,6 +365,8 @@
                                 <include reference="cXh-8W-f5O"/>
                                 <include reference="ggd-pE-7SJ"/>
                                 <include reference="ytg-nm-jW2"/>
+                                <include reference="PhR-C8-S7q"/>
+                                <include reference="cdq-2p-Uw0"/>
                                 <include reference="g6V-5G-4T9"/>
                                 <include reference="QBn-OR-shF"/>
                                 <include reference="RPk-d1-qq7"/>
@@ -377,8 +379,6 @@
                                 <include reference="LPR-qQ-2DR"/>
                                 <include reference="bpl-Ci-RLK"/>
                                 <include reference="vv6-W7-15l"/>
-                                <include reference="PhR-C8-S7q"/>
-                                <include reference="cdq-2p-Uw0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=regular">
@@ -403,6 +403,7 @@
                                 <include reference="YUq-8k-bLx"/>
                                 <include reference="bg5-co-q30"/>
                                 <include reference="teD-Ju-CuW"/>
+                                <include reference="G6v-0W-TKk"/>
                                 <include reference="9Cu-H5-ePO"/>
                                 <include reference="HPd-UH-sTq"/>
                                 <include reference="jP9-7v-rDn"/>
@@ -412,7 +413,6 @@
                                 <include reference="3fO-6b-9Oe"/>
                                 <include reference="LX5-eZ-hGs"/>
                                 <include reference="lMr-Nn-DeW"/>
-                                <include reference="G6v-0W-TKk"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -443,6 +443,8 @@
                                 <include reference="cXh-8W-f5O"/>
                                 <include reference="ggd-pE-7SJ"/>
                                 <include reference="ytg-nm-jW2"/>
+                                <include reference="PhR-C8-S7q"/>
+                                <include reference="cdq-2p-Uw0"/>
                                 <include reference="g6V-5G-4T9"/>
                                 <include reference="QBn-OR-shF"/>
                                 <include reference="RPk-d1-qq7"/>
@@ -455,8 +457,6 @@
                                 <include reference="LPR-qQ-2DR"/>
                                 <include reference="bpl-Ci-RLK"/>
                                 <include reference="vv6-W7-15l"/>
-                                <include reference="PhR-C8-S7q"/>
-                                <include reference="cdq-2p-Uw0"/>
                             </mask>
                         </variation>
                         <connections>
